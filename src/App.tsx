@@ -4,8 +4,10 @@ import type { CardItem } from './types/CardItem';
 
 const App: React.FC = () => {
     const cardItems: CardItem[] = [
-        { order: 2, componentName: 'UseStateCard' },
-        { order: 1, componentName: 'UseEffectCard' }
+        { order: 1, componentName: 'UseStateCard' },
+        { order: 2, componentName: 'UseEffectCard' },
+        { order: 3, componentName: 'UseContextCard' }
+        // Add more card items as needed
     ];
 
     return (
