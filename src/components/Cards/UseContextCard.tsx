@@ -29,7 +29,10 @@ const ChildToggle = ({ isToggle, setIsToggle }: { isToggle: boolean; setIsToggle
 const ChildDisplay = ({ isToggle }: { isToggle: boolean }) => {
   return (
     <div className="p-4 bg-gray-50 rounded-lg shadow mt-4">
-      <h5 className="text-lg font-semibold mb-2">Display Component</h5>
+      {isToggle && <div>
+        Child Component is ON<h5 className="text-lg font-semibold mb-2"></h5>
+        </div>}
+      
       <p className="text-gray-700">
         The toggle is currently: <strong>{isToggle ? 'ON' : 'OFF'}</strong>
       </p>
