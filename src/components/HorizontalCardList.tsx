@@ -5,7 +5,7 @@ import { getComponent } from '../utils/componentsRegistry';
 
 const HorizontalCardList: React.FC<{ items: CardItem[] }> = ({ items }) => {
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'row', gap: 2, overflowX: 'auto', border: '1px solid #ccc', padding: 2 , minHeight: 400}}>
+    <Box sx={{ display: 'flex', flexDirection: 'row', gap: 2, overflowX: 'auto', border: '1px solid #ccc', padding: 2 , minHeight: 450}}>
       {items.map((item, index) => (
         <Card key={index} sx={{ minWidth: 300 }}>
           <Suspense fallback={<CircularProgress />}>

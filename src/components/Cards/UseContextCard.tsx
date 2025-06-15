@@ -5,9 +5,12 @@ const UseContextCard = () => {
 
   return (
     <div>
-      <h4 className="text-xl font-semibold mb-4 text-gray-800">Parent Component</h4>
-      <ChildToggle isToggle={isToggle} setIsToggle={setIsToggle} />
-      <ChildDisplay isToggle={isToggle} />
+        <h2 className="text-xl font-semibold mb-4 text-gray-800">
+          useContext Hook Example
+        </h2>
+        <h4 className="text-xl font-semibold mb-4 text-gray-800">Parent Component</h4>
+        <ChildToggle isToggle={isToggle} setIsToggle={setIsToggle} />
+        <ChildDisplay isToggle={isToggle} />
     </div>
   )
 }

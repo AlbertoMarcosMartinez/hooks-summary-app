@@ -12,9 +12,9 @@ const UseEffectCard: React.FC = () => {
 
   return (
     <div className="p-6">
-      <h4 className="text-xl font-semibold mb-4 text-gray-800">
-        useEffect with API Example
-      </h4>      
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">
+        useEffect Hook Calling API Example
+      </h2>      
       <div className="relative mb-6">
         <label className="block text-sm font-medium text-gray-700 mb-2">
           Select User ID

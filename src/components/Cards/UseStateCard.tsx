@@ -20,9 +20,9 @@ const UseStateCard: React.FC = () => {
 
   return (
     <Box sx={{ p: 2 }}>
-      <Typography variant="h6" gutterBottom>
-        useState Hook Example
-      </Typography>
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">
+        useState  Hook Example
+      </h2>
       
       <FormControl fullWidth sx={{ mb: 2 }}>
         <InputLabel>Select your favorite color</InputLabel>
