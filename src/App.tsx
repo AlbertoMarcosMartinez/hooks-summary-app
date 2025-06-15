@@ -15,6 +15,7 @@ const App: React.FC = () => {
         { order: 9, componentName: 'useIdCard' },
         { order: 10, componentName: 'UseTransitionCard' },
         { order: 11, componentName: 'UseDeferredValueCard' },
+        { order: 12, componentName: 'UseSyncExternalStoreCard' },
         // Add more card items as needed
     ];
 
