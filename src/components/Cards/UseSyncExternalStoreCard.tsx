@@ -62,3 +62,24 @@ const UseSyncExternalStoreCard: React.FC = () => {
 };
 
 export default UseSyncExternalStoreCard;
+
+// Puntos Clave
+// 1. Store Externo
+// Mantiene el estado fuera de React
+// Proporciona mecanismo de suscripción
+// Gestiona las actualizaciones de datos
+// 2. useSyncExternalStore
+// Sincroniza el estado externo con React
+// Maneja suscripciones automáticamente
+// Garantiza consistencia en SSR
+// 3. Ventajas
+// Integración segura con fuentes externas
+// Actualización síncrona del estado
+// Previene inconsistencias de renderizado
+// Ideal para bibliotecas de estado
+// 4. Casos de Uso
+// Integración con APIs externas
+// Manejo de estado global
+// Sistemas de eventos
+// Datos en tiempo real
+// Este ejemplo demuestra cómo useSyncExternalStore puede utilizarse para integrar datos de una API externa (PokeAPI) de manera segura y eficiente en una aplicación React.

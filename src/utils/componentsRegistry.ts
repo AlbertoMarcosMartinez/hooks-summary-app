@@ -2,7 +2,7 @@ import React from 'react';
 
 // Define valid component names
 type RegisteredComponents = 'UseStateCard' | 'UseEffectCard' | 'UseContextCard'| 'UseReducerCard' | 'UseRefCard' | 'UseImperativeCard' | 'UseLayoutEffectCard'
-| 'UseInsertionEffectCard' | 'useIdCard' | 'UseTransitionCard' | 'UseDeferredValueCard' | 'UseSyncExternalStoreCard';
+| 'UseInsertionEffectCard' | 'useIdCard' | 'UseTransitionCard' | 'UseDeferredValueCard' | 'UseSyncExternalStoreCard' | 'UseCallbackCard';
 
 // Create a type for lazy-loaded components
 type ComponentRegistry = {
@@ -23,6 +23,7 @@ const componentRegistry: ComponentRegistry = {
     UseTransitionCard: React.lazy(() => import('../components/Cards/UseTransitionCard')),
     UseDeferredValueCard: React.lazy(() => import('../components/Cards/UseDeferredValueCard')),
     UseSyncExternalStoreCard: React.lazy(() => import('../components/Cards/UseSyncExternalStoreCard')),
+    UseCallbackCard: React.lazy(() => import('../components/Cards/UseCallbackCard')),
 };
 
 // Helper to safely get components
