@@ -10,11 +10,12 @@ const App: React.FC = () => {
         { order: 4, componentName: 'UseReducerCard' },
         { order: 5, componentName: 'UseRefCard' },
         { order: 6, componentName: 'UseImperativeCard' },
+        { order: 7, componentName: 'UseLayoutEffectCard' },
         // Add more card items as needed
     ];
 
     return (
-       <div style={{ margin: '20px' }}>
+       <div>
             <HorizontalCardList items={cardItems} />
         </div>
     );
