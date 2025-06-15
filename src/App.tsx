@@ -9,6 +9,7 @@ const App: React.FC = () => {
         { order: 3, componentName: 'UseContextCard' },
         { order: 4, componentName: 'UseReducerCard' },
         { order: 5, componentName: 'UseRefCard' },
+        { order: 6, componentName: 'UseImperativeCard' },
         // Add more card items as needed
     ];
 

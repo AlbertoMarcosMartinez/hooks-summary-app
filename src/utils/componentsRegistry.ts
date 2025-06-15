@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Define valid component names
-type RegisteredComponents = 'UseStateCard' | 'UseEffectCard' | 'UseContextCard'| 'UseReducerCard' | 'UseRefCard';
+type RegisteredComponents = 'UseStateCard' | 'UseEffectCard' | 'UseContextCard'| 'UseReducerCard' | 'UseRefCard' | 'UseImperativeCard';
 
 // Create a type for lazy-loaded components
 type ComponentRegistry = {
@@ -15,6 +15,7 @@ const componentRegistry: ComponentRegistry = {
     UseContextCard: React.lazy(() => import('../components/Cards/UseContextCard')),
     UseReducerCard: React.lazy(() => import('../components/Cards/UseReducerCard')),
     UseRefCard: React.lazy(() => import('../components/Cards/UseRefCard')),
+    UseImperativeCard: React.lazy(() => import('../components/Cards/UseImperativeCard')),
 };
 
 // Helper to safely get components
