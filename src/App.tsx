@@ -12,6 +12,8 @@ const App: React.FC = () => {
         { order: 6, componentName: 'UseImperativeCard' },
         { order: 7, componentName: 'UseLayoutEffectCard' },
         { order: 8, componentName: 'UseInsertionEffectCard' },
+        { order: 9, componentName: 'useIdCard' },
+        { order: 10, componentName: 'UseTransitionCard' },
         // Add more card items as needed
     ];
 
