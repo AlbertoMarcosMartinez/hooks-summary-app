@@ -6,7 +6,8 @@ const App: React.FC = () => {
     const cardItems: CardItem[] = [
         { order: 1, componentName: 'UseStateCard' },
         { order: 2, componentName: 'UseEffectCard' },
-        { order: 3, componentName: 'UseContextCard' }
+        { order: 3, componentName: 'UseContextCard' },
+        { order: 4, componentName: 'UseReducerCard' },
         // Add more card items as needed
     ];
 
