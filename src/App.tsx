@@ -8,6 +8,7 @@ const App: React.FC = () => {
         { order: 2, componentName: 'UseEffectCard' },
         { order: 3, componentName: 'UseContextCard' },
         { order: 4, componentName: 'UseReducerCard' },
+        { order: 5, componentName: 'UseRefCard' },
         // Add more card items as needed
     ];
 
